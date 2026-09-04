@@ -1,0 +1,1432 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Centro Assistenza 3DZ",
+  "theme": "almond",
+  "colors": {
+    "primary": "#5caca5",
+    "light": "#eec9bc",
+    "dark": "#4fa1ab"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Centro Assistenza",
+        "groups": [
+          {
+            "group": "Home",
+            "pages": ["index"]
+          },
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/sezione-i-miei-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Ordini, Spedizioni e Resi",
+            "pages": [
+              "ordini/come-effettuare-un-ordine",
+              "ordini/index",
+              "ordini/fare-un-ordine",
+              "ordini/sezione-i-miei-prodotti",
+              "ordini/modificare-o-annullare-un-ordine",
+              "ordini/tempi-di-spedizione",
+              "ordini/tracciare-la-spedizione",
+              "ordini/modificare-indirizzo-fatturazione-o-spedizione",
+              "ordini/evasione-parziale-degli-ordini",
+              "ordini/acquistare-prodotto-non-disponibile",
+              "ordini/richiedere-reso-o-cambio-prodotto",
+              "ordini/conferma-ordine",
+              "ordini/fattura-ordine",
+              "ordini/riferimenti-note-ordine"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/catalogo-prodotti",
+              "prodotti/compatibilita-materiali",
+              "prodotti/schede-sicurezza",
+              "prodotti/schede-sicurezza/3d-systems",
+              "prodotti/schede-sicurezza/3d-systems-resine",
+              "prodotti/schede-sicurezza/markforged",
+              "prodotti/schede-sicurezza/formlabs",
+              "prodotti/certificazioni"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ],
+        "pages": [
+          "index",
+          {
+            "group": "Home",
+            "hidden": true,
+            "pages": []
+          },
+          {
+            "group": "Compatibilità",
+            "pages": [
+              "compatibilita/index",
+              "compatibilita/verificare-compatibilita-stampanti-prodotto"
+            ]
+          },
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/sezione-i-miei-prodotti",
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Ordini, Spedizioni e Resi",
+            "pages": [
+              "ordini/come-effettuare-un-ordine",
+              "ordini/index",
+              "ordini/fare-un-ordine",
+              "ordini/sezione-i-miei-prodotti",
+              "ordini/modificare-o-annullare-un-ordine",
+              "ordini/tempi-di-spedizione",
+              "ordini/tracciare-la-spedizione",
+              "ordini/modificare-indirizzo-fatturazione-o-spedizione",
+              "ordini/evasione-parziale-degli-ordini",
+              "ordini/acquistare-prodotto-non-disponibile",
+              "ordini/richiedere-reso-o-cambio-prodotto",
+              "ordini/conferma-ordine",
+              "ordini/fattura-ordine",
+              "ordini/riferimenti-note-ordine"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/catalogo-prodotti",
+              "prodotti/compatibilita-materiali",
+              "prodotti/schede-sicurezza",
+              "prodotti/certificazioni"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Home",
+            "hidden": true,
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/sezione-i-miei-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Ordini, Spedizioni e Resi",
+            "pages": [
+              "ordini/come-effettuare-un-ordine",
+              "ordini/index",
+              "ordini/fare-un-ordine",
+              "ordini/sezione-i-miei-prodotti",
+              "ordini/modificare-o-annullare-un-ordine",
+              "ordini/tempi-di-spedizione",
+              "ordini/tracciare-la-spedizione",
+              "ordini/modificare-indirizzo-fatturazione-o-spedizione",
+              "ordini/evasione-parziale-degli-ordini",
+              "ordini/acquistare-prodotto-non-disponibile",
+              "ordini/richiedere-reso-o-cambio-prodotto",
+              "ordini/conferma-ordine",
+              "ordini/fattura-ordine",
+              "ordini/riferimenti-note-ordine"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Home",
+            "hidden": true,
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/sezione-i-miei-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Ordini, Spedizioni e Resi",
+            "pages": [
+              "ordini/come-effettuare-un-ordine",
+              "ordini/index",
+              "ordini/fare-un-ordine",
+              "ordini/sezione-i-miei-prodotti",
+              "ordini/modificare-o-annullare-un-ordine",
+              "ordini/tempi-di-spedizione",
+              "ordini/tracciare-la-spedizione",
+              "ordini/modificare-indirizzo-fatturazione-o-spedizione",
+              "ordini/evasione-parziale-degli-ordini",
+              "ordini/acquistare-prodotto-non-disponibile",
+              "ordini/richiedere-reso-o-cambio-prodotto",
+              "ordini/conferma-ordine",
+              "ordini/fattura-ordine",
+              "ordini/riferimenti-note-ordine"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Home",
+            "hidden": true,
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/sezione-i-miei-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Ordini, Spedizioni e Resi",
+            "pages": [
+              "ordini/come-effettuare-un-ordine",
+              "ordini/index",
+              "ordini/fare-un-ordine",
+              "ordini/sezione-i-miei-prodotti",
+              "ordini/modificare-o-annullare-un-ordine",
+              "ordini/tempi-di-spedizione",
+              "ordini/tracciare-la-spedizione",
+              "ordini/modificare-indirizzo-fatturazione-o-spedizione",
+              "ordini/evasione-parziale-degli-ordini",
+              "ordini/acquistare-prodotto-non-disponibile",
+              "ordini/richiedere-reso-o-cambio-prodotto",
+              "ordini/conferma-ordine",
+              "ordini/fattura-ordine",
+              "ordini/riferimenti-note-ordine"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza",
+              "prodotti/schede-sicurezza/3d-systems",
+              "prodotti/schede-sicurezza/3d-systems-resine",
+              "prodotti/schede-sicurezza/markforged",
+              "prodotti/schede-sicurezza/formlabs"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza",
+              "prodotti/schede-sicurezza/3d-systems",
+              "prodotti/schede-sicurezza/3d-systems-resine",
+              "prodotti/schede-sicurezza/markforged",
+              "prodotti/schede-sicurezza/formlabs"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza",
+              "prodotti/schede-sicurezza/3d-systems",
+              "prodotti/schede-sicurezza/3d-systems-resine",
+              "prodotti/schede-sicurezza/markforged",
+              "prodotti/schede-sicurezza/formlabs"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza",
+              "prodotti/schede-sicurezza/3d-systems",
+              "prodotti/schede-sicurezza/3d-systems-resine",
+              "prodotti/schede-sicurezza/markforged",
+              "prodotti/schede-sicurezza/formlabs"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": []
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "hidden": true,
+            "pages": []
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/index"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti-e-schede-sicurezza/index"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/index"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/sezione-i-miei-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Centro Assistenza",
+        "pages": [
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "redirects": [
+    {
+      "source": "/prodotti/catalogo-prodotti",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/prodotti/schede-sicurezza/3d-systems",
+      "destination": "/prodotti/schede-sicurezza",
+      "permanent": false
+    },
+    {
+      "source": "/prodotti/schede-sicurezza/3d-systems-resine",
+      "destination": "/prodotti/schede-sicurezza",
+      "permanent": false
+    },
+    {
+      "source": "/prodotti/schede-sicurezza/markforged",
+      "destination": "/prodotti/schede-sicurezza",
+      "permanent": false
+    },
+    {
+      "source": "/prodotti/schede-sicurezza/formlabs",
+      "destination": "/prodotti/schede-sicurezza",
+      "permanent": false
+    },
+    {
+      "source": "/prodotti/schede-sicurezza/3d-systems",
+      "destination": "/prodotti/schede-sicurezza",
+      "permanent": false
+    },
+    {
+      "source": "/prodotti/schede-sicurezza/3d-systems-resine",
+      "destination": "/prodotti/schede-sicurezza",
+      "permanent": false
+    },
+    {
+      "source": "/prodotti/schede-sicurezza/markforged",
+      "destination": "/prodotti/schede-sicurezza",
+      "permanent": false
+    },
+    {
+      "source": "/prodotti/schede-sicurezza/formlabs",
+      "destination": "/prodotti/schede-sicurezza",
+      "permanent": false
+    }
+  ]
+}

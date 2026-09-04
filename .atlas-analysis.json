@@ -1,0 +1,77 @@
+{
+  "projectType": "saas",
+  "projectName": "Centro Assistenza 3DZ",
+  "projectDescription": "Portale di assistenza clienti per 3DZ Shop, e-commerce specializzato in consumabili, accessori e ricambi per stampanti e scanner 3D.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Centro Assistenza",
+        "groups": [
+          {
+            "group": "Home",
+            "pages": ["index"]
+          },
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/panoramica",
+              "informazioni-generali/account",
+              "informazioni-generali/metodi-di-pagamento",
+              "informazioni-generali/programma-fedelta"
+            ]
+          },
+          {
+            "group": "Ordini, Spedizioni e Resi",
+            "pages": [
+              "ordini/come-effettuare-un-ordine",
+              "ordini/tracciamento-spedizione",
+              "ordini/tempi-di-consegna",
+              "ordini/resi-e-rimborsi",
+              "ordini/annullamento-ordine"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/richiedere-un-preventivo",
+              "preventivi/preventivi-aziendali",
+              "preventivi/stato-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/catalogo-prodotti",
+              "prodotti/compatibilita-materiali",
+              "prodotti/schede-sicurezza",
+              "prodotti/certificazioni"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/problemi-account",
+              "problemi-tecnici/problemi-ordine",
+              "problemi-tecnici/contattare-assistenza"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Gestione ordini online per consumabili e accessori 3D",
+    "Tracciamento spedizioni in tempo reale",
+    "Processo di reso e rimborso semplificato",
+    "Richiesta preventivi personalizzati per aziende",
+    "Catalogo prodotti con schede sicurezza scaricabili",
+    "Supporto clienti dedicato per problemi tecnici",
+    "Area personale per gestione account e storico ordini",
+    "Informazioni su compatibilità materiali per stampanti e scanner 3D"
+  ],
+  "publicApiSurface": []
+}

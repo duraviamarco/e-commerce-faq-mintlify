@@ -1,0 +1,127 @@
+---
+title: "Compatibilità materiali: quale filamento scegliere"
+sidebarTitle: "Compatibilità"
+description: "Guida alla compatibilità tra materiali di stampa 3D e stampanti: temperature, caratteristiche e consigli per scegliere il filamento giusto."
+---
+
+Scegliere il materiale giusto è uno dei passi più importanti per ottenere stampe di qualità. Ogni filamento o resina ha requisiti tecnici specifici — temperatura di estrusione, tipo di piano, configurazione dell'estrusore — e non tutti i materiali sono compatibili con ogni stampante. Questa guida ti aiuta a capire quali materiali puoi usare con il tuo hardware e come ottenere il meglio da ciascuno di essi.
+
+## Materiali FDM: caratteristiche e requisiti
+
+### PLA — Acido Polilattico
+
+Il PLA è il materiale d'ingresso per eccellenza nella stampa FDM. È biodegradabile, facile da stampare e disponibile in centinaia di colori e varianti.
+
+- **Temperatura ugello:** 190–220 °C
+- **Temperatura piano:** 0–60 °C (piano freddo accettabile)
+- **Camera chiusa:** Non necessaria
+- **Estrusore:** Bowden o direct drive
+- **Casi d'uso:** Prototipi, oggetti decorativi, modelli architettonici, parti leggere non strutturali
+- **Limitazioni:** Bassa resistenza termica (inizia a deformarsi attorno a 60 °C), fragile rispetto ad altri materiali
+
+### ABS — Acrilonitrile Butadiene Stirene
+
+L'ABS è un termoplastico industriale con buona resistenza meccanica e termica. Richiede condizioni di stampa controllate.
+
+- **Temperatura ugello:** 230–250 °C
+- **Temperatura piano:** 100–110 °C
+- **Camera chiusa:** Indispensabile per evitare il warping e la delaminazione
+- **Estrusore:** Bowden o direct drive
+- **Casi d'uso:** Carcasse elettroniche, componentistica meccanica, parti esposte a calore moderato
+- **Limitazioni:** Tende a ritirarsi durante il raffreddamento (warping), produce vapori durante la stampa — assicura una buona ventilazione del locale
+
+### PETG — Polietilene Tereftalato Glicole
+
+Il PETG rappresenta un ottimo compromesso tra facilità di stampa e prestazioni meccaniche. È resistente agli agenti chimici e leggermente flessibile.
+
+- **Temperatura ugello:** 220–240 °C
+- **Temperatura piano:** 70–85 °C
+- **Camera chiusa:** Consigliata ma non obbligatoria
+- **Estrusore:** Bowden o direct drive
+- **Casi d'uso:** Contenitori per alimenti (con ugello food-safe), parti meccaniche, supporti, protezioni
+- **Limitazioni:** Tende a colare e a formare stringing se i parametri di retrazione non sono ottimizzati; assorbe facilmente l'umidità
+
+### TPU — Poliuretano Termoplastico
+
+Il TPU è il filamento flessibile di riferimento. La sua elasticità lo rende ideale per applicazioni che richiedono ammortizzamento o grip.
+
+- **Temperatura ugello:** 210–230 °C
+- **Temperatura piano:** 30–60 °C
+- **Camera chiusa:** Non necessaria
+- **Estrusore:** Direct drive (fortemente consigliato); il Bowden rende difficile la gestione del filamento flessibile
+- **Casi d'uso:** Cover per dispositivi, suole, guarnizioni, protettori antiurto, accessori sportivi
+- **Limitazioni:** Stampa lenta, richiede estrusore direct drive per risultati affidabili; difficile da gestire con bowden lungo
+
+### Nylon — Poliammide (PA6, PA12)
+
+Il Nylon è uno dei materiali tecnici più usati in ingegneria per la sua resistenza all'abrasione, alla fatica e agli agenti chimici.
+
+- **Temperatura ugello:** 240–280 °C
+- **Temperatura piano:** 70–90 °C
+- **Camera chiusa:** Necessaria per evitare warping e delaminazione
+- **Estrusore:** Direct drive preferibile
+- **Casi d'uso:** Ingranaggi, boccole, guide, parti strutturali, applicazioni automotive
+- **Limitazioni:** Igroscopico — assorbe umidità dall'aria rapidamente. **Deve essere stampato da un essiccatore attivo.** Difficile da incollare e post-processare.
+
+### Compositi a Fibra di Carbonio (CF)
+
+I compositi CF (PLA-CF, PETG-CF, PA-CF, ABS-CF) offrono un rapporto rigidità/peso superiore ai materiali base, con superfici con texture matte e aspetto tecnico.
+
+- **Temperatura ugello:** 240–260 °C (varia a seconda della base polimerica)
+- **Temperatura piano:** Come il materiale base
+- **Camera chiusa:** Come il materiale base
+- **Estrusore:** Direct drive consigliato
+
+<Warning>
+  I filamenti con fibra di carbonio, fibra di vetro, riempitivi metallici o altre particelle abrasive **usurano rapidamente gli ugelli standard in ottone**. Utilizza esclusivamente ugelli in **acciaio temprato**, acciaio inossidabile o rubino quando stampi questi materiali. Ignorare questo requisito può danneggiare irreparabilmente l'ugello nel giro di poche ore di stampa.
+</Warning>
+
+## Materiali per SLA/MSLA
+
+Le resine fotopolimeriche polimerizzano mediante luce UV. Prima di acquistare una resina, verifica la **lunghezza d'onda** della sorgente luminosa della tua stampante:
+
+- **385 nm:** Tipico delle stampanti SLA con laser UV
+- **405 nm:** Standard per la maggior parte delle stampanti MSLA (LCD/mono-LCD)
+
+| Tipo di resina | Lunghezza d'onda | Caratteristiche principali | Usi tipici |
+|---|---|---|---|
+| Standard | 385/405 nm | Alta risoluzione, superficie liscia | Miniature, prototipi, display |
+| ABS-like | 385/405 nm | Rigida, resistente agli urti | Parti funzionali, carcasse |
+| Flessibile | 385/405 nm | Elastica, non fragile | Guarnizioni, maschere, prototipi ergonomici |
+| Colabile (Castable) | 405 nm | Combustione pulita | Gioielleria, fusione a cera persa |
+| Dentale | 405 nm | Biocompatibile (certificata) | Modelli dentali, guide chirurgiche |
+
+## Scegliere il materiale giusto: riepilogo visivo
+
+<CardGroup cols={2}>
+  <Card title="Stampo per la prima volta" icon="star">
+    Inizia con il **PLA**: è il materiale più facile, compatibile con qualsiasi stampante FDM e disponibile in tantissimi colori. Nessun rischio di warping, temperatura bassa, ottimo per imparare.
+  </Card>
+  <Card title="Ho bisogno di resistenza meccanica" icon="dumbbell">
+    Scegli **PETG** per uso generale o **Nylon** per applicazioni ingegneristiche. Se serve rigidezza massima con peso minimo, valuta un composito **CF**.
+  </Card>
+  <Card title="La parte sarà esposta a calore" icon="temperature-high">
+    Evita il PLA standard. Opta per **ABS**, **ASA** o **PC** in base alla temperatura massima richiesta e alle capacità della tua stampante.
+  </Card>
+  <Card title="Serve flessibilità" icon="arrows-left-right">
+    Usa **TPU** per la stampa FDM o una **resina flessibile** per SLA/MSLA. Verifica che la tua stampante abbia un estrusore direct drive prima di acquistare TPU.
+  </Card>
+</CardGroup>
+
+<Tip>
+  Conserva sempre i filamenti tecnici (Nylon, PC, PVA, PETG) in contenitori ermetici con **gel di silice essiccante** quando non sono in uso. Un filamento umido produce stampe con bolle, superfici ruvide, fragilità e scarsa adesione tra i layer. Per il Nylon in particolare, utilizza un essiccatore attivo durante la stampa — anche poche ore di esposizione all'aria possono degradare la qualità del materiale.
+</Tip>
+
+## Domande frequenti sulla compatibilità
+
+<Accordion title="Come capisco se il mio filamento è umido?">
+  I segnali più comuni di un filamento che ha assorbito umidità sono: **crepitio o scoppiettio** udibile durante la stampa (l'acqua evapora nell'ugello), superficie della stampa ruvida o con micro-bolle, perdita di lucentezza nel PETG, fragilità anomala del filamento, stringing eccessivo. Per rimediare, essicca il filamento in un essiccatore dedicato (preferibile) o in un forno impostato tra 45 °C e 65 °C (a seconda del materiale) per 4–8 ore. Non superare mai la temperatura di transizione vetrosa del materiale.
+</Accordion>
+
+<Accordion title="Posso mescolare materiali diversi nella stessa stampa?">
+  Sì, è possibile in diversi scenari. Con una stampante multi-estrusore puoi combinare materiali strutturali con **supporti solubili** (PVA per uso con PLA, HIPS per uso con ABS). Puoi anche stampare in dual-color con materiali dalla stessa famiglia (es. PLA + PLA). Mescolare materiali con temperature di stampa molto diverse (es. PLA e PC) sullo stesso hot end non è consigliato e può causare degradazione del materiale a temperatura più bassa. Verifica sempre la compatibilità termica prima di eseguire stampe multi-materiale.
+</Accordion>
+
+<Accordion title="Qual è la differenza tra PLA e PLA+?">
+  Il **PLA standard** è il materiale base: economico, facile da stampare, biodegradabile, ma relativamente fragile e con bassa resistenza al calore. Il **PLA+** (o PLA Pro, a seconda del produttore) è una formulazione migliorata che aggiunge modificatori d'impatto alla matrice di PLA. Il risultato è un materiale con **maggiore resistenza agli urti**, minore fragilità e spesso una migliore lavorabilità superficiale. La temperatura di stampa è simile o leggermente superiore. Il PLA+ non è però necessariamente più resistente al calore — per questo hai bisogno di materiali come PETG, ABS o ASA.
+</Accordion>
