@@ -223,8 +223,13 @@
           {
             "group": "Prodotti e Schede Sicurezza",
             "pages": [
+              "prodotti/schede-sicurezza",
               "prodotti/catalogo-prodotti",
-              "prodotti/compatibilita-materiali"
+              "prodotti/compatibilita-materiali",
+              "prodotti/schede-sicurezza/3d-systems",
+              "prodotti/schede-sicurezza/markforged",
+              "prodotti/schede-sicurezza/formlabs",
+              "prodotti/schede-sicurezza/3d-systems-resine"
             ]
           },
           {
