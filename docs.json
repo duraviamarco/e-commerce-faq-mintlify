@@ -186,7 +186,8 @@
               "informazioni-generali/sezione-i-miei-prodotti",
               "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
               "informazioni-generali/differenza-i-miei-prodotti-prodotti"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Ordini, Spedizioni e Resi",
@@ -205,7 +206,8 @@
               "ordini/conferma-ordine",
               "ordini/fattura-ordine",
               "ordini/riferimenti-note-ordine"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Preventivi",
@@ -218,23 +220,27 @@
               "preventivi/gestire-link-preventivo-scaduto",
               "preventivi/merce-non-riservata-dal-preventivo",
               "preventivi/annullare-un-preventivo"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Prodotti e Schede Sicurezza",
             "pages": [
-              "prodotti/schede-sicurezza",
               "prodotti/catalogo-prodotti",
               "prodotti/compatibilita-materiali",
+              "prodotti/schede-sicurezza",
               "prodotti/schede-sicurezza/3d-systems",
               "prodotti/schede-sicurezza/markforged",
               "prodotti/schede-sicurezza/formlabs",
-              "prodotti/schede-sicurezza/3d-systems-resine"
-            ]
+              "prodotti/schede-sicurezza/3d-systems-resine",
+              "prodotti/certificazioni"
+            ],
+            "expanded": false
           },
           {
             "group": "Problemi Tecnici",
             "pages": [
+              "problemi-tecnici/index",
               "problemi-tecnici/risolvere-caricamento-continuo-homepage",
               "problemi-tecnici/accedere-account-3dzshop",
               "problemi-tecnici/reimpostare-password-dimenticata",
@@ -242,7 +248,8 @@
               "problemi-tecnici/contattare-supporto-problemi-portale",
               "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
               "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
-            ]
+            ],
+            "expanded": false
           }
         ]
       },
@@ -1421,31 +1428,6 @@
     ]
   },
   "redirects": [
-    {
-      "source": "/prodotti/catalogo-prodotti",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/3d-systems",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/3d-systems-resine",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/markforged",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/formlabs",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
     {
       "source": "/prodotti/schede-sicurezza/3d-systems",
       "destination": "/prodotti/schede-sicurezza",
