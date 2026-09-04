@@ -1,1 +1,88 @@
-ewogICJ0aGVtZSI6ICJhbG1vbmQiLAogICJuYW1lIjogIkNlbnRybyBBc3Npc3RlbnphIDNEWiIsCiAgImNvbG9ycyI6IHsKICAgICJwcmltYXJ5IjogIiM1Y2FjYTUiLAogICAgImxpZ2h0IjogIiNlZWM5YmMiLAogICAgImRhcmsiOiAiIzRmYTFhYiIKICB9LAogICJmYXZpY29uIjogIi9mYXZpY29uLnN2ZyIsCiAgInJlZGlyZWN0cyI6IFtdLAogICIkc2NoZW1hIjogImh0dHBzOi8vbWludGxpZnkuY29tL2RvY3MuanNvbiIsCiAgIm5hdmlnYXRpb24iOiB7CiAgICAidGFicyI6IFsKICAgICAgewogICAgICAgICJ0YWIiOiAiQ2VudHJvIEFzc2lzdGVuemEiLAogICAgICAgICJncm91cHMiOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgICJncm91cCI6ICJIb21lIiwKICAgICAgICAgICAgInBhZ2VzIjogWwogICAgICAgICAgICAgICJpbmRleCIKICAgICAgICAgICAgXQogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgImdyb3VwIjogIkluZm9ybWF6aW9uaSBHZW5lcmFsaSIsCiAgICAgICAgICAgICJwYWdlcyI6IFsKICAgICAgICAgICAgICAiaW5mb3JtYXppb25pLWdlbmVyYWxpL2luZGV4IiwKICAgICAgICAgICAgICAiaW5mb3JtYXppb25pLWdlbmVyYWxpL3BhZ2luYS1wcm9kb3R0aSIsCiAgICAgICAgICAgICAgImluZm9ybWF6aW9uaS1nZW5lcmFsaS9zZXppb25lLWktbWllaS1wcm9kb3R0aSIsCiAgICAgICAgICAgICAgImluZm9ybWF6aW9uaS1nZW5lcmFsaS9wcm9kb3R0aS1tYW5jYW50aS1pLW1pZWktcHJvZG90dGkiLAogICAgICAgICAgICAgICJpbmZvcm1hemlvbmktZ2VuZXJhbGkvZGlmZmVyZW56YS1pLW1pZWktcHJvZG90dGktcHJvZG90dGkiCiAgICAgICAgICAgIF0KICAgICAgICAgIH0sCiAgICAgICAgICB7CiAgICAgICAgICAgICJncm91cCI6ICJPcmRpbmksIFNwZWRpemlvbmkgZSBSZXNpIiwKICAgICAgICAgICAgInBhZ2VzIjogWwogICAgICAgICAgICAgICJvcmRpbmkvY29tZS1lZmZldHR1YXJlLXVuLW9yZGluZSIsCiAgICAgICAgICAgICAgIm9yZGluaS9pbmRleCIsCiAgICAgICAgICAgICAgIm9yZGluaS9mYXJlLXVuLW9yZGluZSIsCiAgICAgICAgICAgICAgIm9yZGluaS9zZXppb25lLWktbWllaS1wcm9kb3R0aSIsCiAgICAgICAgICAgICAgIm9yZGluaS9tb2RpZmljYXJlLW8tYW5udWxsYXJlLXVuLW9yZGluZSIsCiAgICAgICAgICAgICAgIm9yZGluaS90ZW1waS1kaS1zcGVkaXppb25lIiwKICAgICAgICAgICAgICAib3JkaW5pL3RyYWNjaWFyZS1sYS1zcGVkaXppb25lIiwKICAgICAgICAgICAgICAib3JkaW5pL21vZGlmaWNhcmUtaW5kaXJpenpvLWZhdHR1cmF6aW9uZS1vLXNwZWRpemlvbmUiLAogICAgICAgICAgICAgICJvcmRpbmkvZXZhc2lvbmUtcGFyemlhbGUtZGVnbGktb3JkaW5pIiwKICAgICAgICAgICAgICAib3JkaW5pL2FjcXVpc3RhcmUtcHJvZG90dG8tbm9uLWRpc3BvbmliaWxlIiwKICAgICAgICAgICAgICAib3JkaW5pL3JpY2hpZWRlcmUtcmVzby1vLWNhbWJpby1wcm9kb3R0byIsCiAgICAgICAgICAgICAgIm9yZGluaS9jb25mZXJtYS1vcmRpbmUiLAogICAgICAgICAgICAgICJvcmRpbmkvZmF0dHVyYS1vcmRpbmUiLAogICAgICAgICAgICAgICJvcmRpbmkvcmlmZXJpbWVudGktbm90ZS1vcmRpbmUiCiAgICAgICAgICAgIF0KICAgICAgICAgIH0sCiAgICAgICAgICB7CiAgICAgICAgICAgICJncm91cCI6ICJQcmV2ZW50aXZpIiwKICAgICAgICAgICAgInBhZ2VzIjogWwogICAgICAgICAgICAgICJwcmV2ZW50aXZpL2luZGV4IiwKICAgICAgICAgICAgICAicHJldmVudGl2aS9jcmVhcmUtdW4tcHJldmVudGl2by1zdWwtcG9ydGFsZSIsCiAgICAgICAgICAgICAgInByZXZlbnRpdmkvY29uZmVybWEtZG9wby1jcmVhemlvbmUtcHJldmVudGl2byIsCiAgICAgICAgICAgICAgInByZXZlbnRpdmkvY29uZmVybWFyZS11bi1wcmV2ZW50aXZvLXJpY2V2dXRvIiwKICAgICAgICAgICAgICAicHJldmVudGl2aS9wcmV6emktZGVsLXByZXZlbnRpdm8tbm9uLWdhcmFudGl0aSIsCiAgICAgICAgICAgICAgInByZXZlbnRpdmkvZ2VzdGlyZS1saW5rLXByZXZlbnRpdm8tc2NhZHV0byIsCiAgICAgICAgICAgICAgInByZXZlbnRpdmkvbWVyY2Utbm9uLXJpc2VydmF0YS1kYWwtcHJldmVudGl2byIsCiAgICAgICAgICAgICAgInByZXZlbnRpdmkvYW5udWxsYXJlLXVuLXByZXZlbnRpdm8iCiAgICAgICAgICAgIF0KICAgICAgICAgIH0sCiAgICAgICAgICB7CiAgICAgICAgICAgICJncm91cCI6ICJQcm9kb3R0aSBlIFNjaGVkZSBTaWN1cmV6emEiLAogICAgICAgICAgICAicGFnZXMiOiBbCiAgICAgICAgICAgICAgInByb2RvdHRpL2NhdGFsb2dvLXByb2RvdHRpIiwKICAgICAgICAgICAgICAicHJvZG90dGkvY29tcGF0aWJpbGl0YS1tYXRlcmlhbGkiLAogICAgICAgICAgICAgICJwcm9kb3R0aS9zY2hlZGUtc2ljdXJlenphIiwKICAgICAgICAgICAgICAicHJvZG90dGkvc2NoZWRlLXNpY3VyZXp6YS8zZC1zeXN0ZW1zIiwKICAgICAgICAgICAgICAicHJvZG90dGkvc2NoZWRlLXNpY3VyZXp6YS8zZC1zeXN0ZW1zLXJlc2luZSIsCiAgICAgICAgICAgICAgInByb2RvdHRpL3NjaGVkZS1zaWN1cmV6emEvbWFya2ZvcmdlZCIsCiAgICAgICAgICAgICAgInByb2RvdHRpL3NjaGVkZS1zaWN1cmV6emEvZm9ybWxhYnMiLAogICAgICAgICAgICAgICJwcm9kb3R0aS9jZXJ0aWZpY2F6aW9uaSIKICAgICAgICAgICAgXQogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgImdyb3VwIjogIlByb2JsZW1pIFRlY25pY2kiLAogICAgICAgICAgICAicGFnZXMiOiBbCiAgICAgICAgICAgICAgInByb2JsZW1pLXRlY25pY2kvaW5kZXgiLAogICAgICAgICAgICAgICJwcm9ibGVtaS10ZWNuaWNpL3Jpc29sdmVyZS1jYXJpY2FtZW50by1jb250aW51by1ob21lcGFnZSIsCiAgICAgICAgICAgICAgInByb2JsZW1pLXRlY25pY2kvYWNjZWRlcmUtYWNjb3VudC0zZHpzaG9wIiwKICAgICAgICAgICAgICAicHJvYmxlbWktdGVjbmljaS9yZWltcG9zdGFyZS1wYXNzd29yZC1kaW1lbnRpY2F0YSIsCiAgICAgICAgICAgICAgInByb2JsZW1pLXRlY25pY2kvY2FtYmlhcmUtcGFzc3dvcmQtYWNjb3VudCIsCiAgICAgICAgICAgICAgInByb2JsZW1pLXRlY25pY2kvY29udGF0dGFyZS1zdXBwb3J0by1wcm9ibGVtaS1wb3J0YWxlIiwKICAgICAgICAgICAgICAicHJvYmxlbWktdGVjbmljaS9yaWNoaWVkZXJlLWFzc2lzdGVuemEtdGVjbmljYS1zdGFtcGFudGUtM2QiLAogICAgICAgICAgICAgICJwcm9ibGVtaS10ZWNuaWNpL2F0dGl2YXJlLXB1bHNhbnRpLW9yZGluZS1wcmV2ZW50aXZvIgogICAgICAgICAgICBdCiAgICAgICAgICB9CiAgICAgICAgXQogICAgICB9CiAgICBdCiAgfQp9Cg==
+{
+  "theme": "almond",
+  "name": "Centro Assistenza 3DZ",
+  "colors": {
+    "primary": "#5caca5",
+    "light": "#eec9bc",
+    "dark": "#4fa1ab"
+  },
+  "favicon": "/favicon.svg",
+  "redirects": [],
+  "$schema": "https://mintlify.com/docs.json",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Centro Assistenza",
+        "groups": [
+          {
+            "group": "Home",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Informazioni Generali",
+            "pages": [
+              "informazioni-generali/index",
+              "informazioni-generali/pagina-prodotti",
+              "informazioni-generali/sezione-i-miei-prodotti",
+              "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
+              "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Ordini, Spedizioni e Resi",
+            "pages": [
+              "ordini/index",
+              "ordini/come-effettuare-un-ordine",
+              "ordini/fare-un-ordine",
+              "ordini/sezione-i-miei-prodotti",
+              "ordini/modificare-o-annullare-un-ordine",
+              "ordini/tempi-di-spedizione",
+              "ordini/tracciare-la-spedizione",
+              "ordini/modificare-indirizzo-fatturazione-o-spedizione",
+              "ordini/evasione-parziale-degli-ordini",
+              "ordini/acquistare-prodotto-non-disponibile",
+              "ordini/richiedere-reso-o-cambio-prodotto",
+              "ordini/conferma-ordine",
+              "ordini/fattura-ordine",
+              "ordini/riferimenti-note-ordine"
+            ]
+          },
+          {
+            "group": "Preventivi",
+            "pages": [
+              "preventivi/index",
+              "preventivi/creare-un-preventivo-sul-portale",
+              "preventivi/conferma-dopo-creazione-preventivo",
+              "preventivi/confermare-un-preventivo-ricevuto",
+              "preventivi/prezzi-del-preventivo-non-garantiti",
+              "preventivi/gestire-link-preventivo-scaduto",
+              "preventivi/merce-non-riservata-dal-preventivo",
+              "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/schede-sicurezza"
+            ]
+          },
+          {
+            "group": "Problemi Tecnici",
+            "pages": [
+              "problemi-tecnici/index",
+              "problemi-tecnici/risolvere-caricamento-continuo-homepage",
+              "problemi-tecnici/accedere-account-3dzshop",
+              "problemi-tecnici/reimpostare-password-dimenticata",
+              "problemi-tecnici/cambiare-password-account",
+              "problemi-tecnici/contattare-supporto-problemi-portale",
+              "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
+              "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
