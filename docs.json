@@ -223,7 +223,8 @@
           {
             "group": "Prodotti e Schede Sicurezza",
             "pages": [
-              "prodotti/schede-sicurezza"
+              "prodotti/catalogo-prodotti",
+              "prodotti/compatibilita-materiali"
             ]
           },
           {
