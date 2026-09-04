@@ -399,12 +399,38 @@
         "group": "Centro Assistenza",
         "pages": [
           {
+            "group": "Home",
+            "hidden": false,
+            "pages": [
+              "index"
+            ]
+          },
+          {
             "group": "Informazioni Generali",
             "pages": [
               "informazioni-generali/index",
               "informazioni-generali/pagina-prodotti",
               "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
               "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Ordini, Spedizioni e Resi",
+            "pages": [
+              "ordini/come-effettuare-un-ordine",
+              "ordini/index",
+              "ordini/fare-un-ordine",
+              "ordini/sezione-i-miei-prodotti",
+              "ordini/modificare-o-annullare-un-ordine",
+              "ordini/tempi-di-spedizione",
+              "ordini/tracciare-la-spedizione",
+              "ordini/modificare-indirizzo-fatturazione-o-spedizione",
+              "ordini/evasione-parziale-degli-ordini",
+              "ordini/acquistare-prodotto-non-disponibile",
+              "ordini/richiedere-reso-o-cambio-prodotto",
+              "ordini/conferma-ordine",
+              "ordini/fattura-ordine",
+              "ordini/riferimenti-note-ordine"
             ]
           },
           {
@@ -418,6 +444,12 @@
               "preventivi/gestire-link-preventivo-scaduto",
               "preventivi/merce-non-riservata-dal-preventivo",
               "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/catalogo-prodotti"
             ]
           },
           {
