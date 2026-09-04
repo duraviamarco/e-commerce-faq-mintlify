@@ -186,7 +186,8 @@
               "informazioni-generali/sezione-i-miei-prodotti",
               "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
               "informazioni-generali/differenza-i-miei-prodotti-prodotti"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Ordini, Spedizioni e Resi",
@@ -205,7 +206,8 @@
               "ordini/conferma-ordine",
               "ordini/fattura-ordine",
               "ordini/riferimenti-note-ordine"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Preventivi",
@@ -218,17 +220,27 @@
               "preventivi/gestire-link-preventivo-scaduto",
               "preventivi/merce-non-riservata-dal-preventivo",
               "preventivi/annullare-un-preventivo"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Prodotti e Schede Sicurezza",
             "pages": [
-              "prodotti/schede-sicurezza"
-            ]
+              "prodotti/catalogo-prodotti",
+              "prodotti/compatibilita-materiali",
+              "prodotti/schede-sicurezza",
+              "prodotti/schede-sicurezza/3d-systems",
+              "prodotti/schede-sicurezza/markforged",
+              "prodotti/schede-sicurezza/formlabs",
+              "prodotti/schede-sicurezza/3d-systems-resine",
+              "prodotti/certificazioni"
+            ],
+            "expanded": false
           },
           {
             "group": "Problemi Tecnici",
             "pages": [
+              "problemi-tecnici/index",
               "problemi-tecnici/risolvere-caricamento-continuo-homepage",
               "problemi-tecnici/accedere-account-3dzshop",
               "problemi-tecnici/reimpostare-password-dimenticata",
@@ -236,7 +248,8 @@
               "problemi-tecnici/contattare-supporto-problemi-portale",
               "problemi-tecnici/richiedere-assistenza-tecnica-stampante-3d",
               "problemi-tecnici/attivare-pulsanti-ordine-preventivo"
-            ]
+            ],
+            "expanded": false
           }
         ]
       },
@@ -399,12 +412,38 @@
         "group": "Centro Assistenza",
         "pages": [
           {
+            "group": "Home",
+            "hidden": false,
+            "pages": [
+              "index"
+            ]
+          },
+          {
             "group": "Informazioni Generali",
             "pages": [
               "informazioni-generali/index",
               "informazioni-generali/pagina-prodotti",
               "informazioni-generali/prodotti-mancanti-i-miei-prodotti",
               "informazioni-generali/differenza-i-miei-prodotti-prodotti"
+            ]
+          },
+          {
+            "group": "Ordini, Spedizioni e Resi",
+            "pages": [
+              "ordini/come-effettuare-un-ordine",
+              "ordini/index",
+              "ordini/fare-un-ordine",
+              "ordini/sezione-i-miei-prodotti",
+              "ordini/modificare-o-annullare-un-ordine",
+              "ordini/tempi-di-spedizione",
+              "ordini/tracciare-la-spedizione",
+              "ordini/modificare-indirizzo-fatturazione-o-spedizione",
+              "ordini/evasione-parziale-degli-ordini",
+              "ordini/acquistare-prodotto-non-disponibile",
+              "ordini/richiedere-reso-o-cambio-prodotto",
+              "ordini/conferma-ordine",
+              "ordini/fattura-ordine",
+              "ordini/riferimenti-note-ordine"
             ]
           },
           {
@@ -418,6 +457,12 @@
               "preventivi/gestire-link-preventivo-scaduto",
               "preventivi/merce-non-riservata-dal-preventivo",
               "preventivi/annullare-un-preventivo"
+            ]
+          },
+          {
+            "group": "Prodotti e Schede Sicurezza",
+            "pages": [
+              "prodotti/catalogo-prodotti"
             ]
           },
           {
@@ -1382,51 +1427,5 @@
       }
     ]
   },
-  "redirects": [
-    {
-      "source": "/prodotti/catalogo-prodotti",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/3d-systems",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/3d-systems-resine",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/markforged",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/formlabs",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/3d-systems",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/3d-systems-resine",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/markforged",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/formlabs",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    }
-  ]
+  "redirects": []
 }
