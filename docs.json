@@ -68,7 +68,8 @@
               "prodotti/schede-sicurezza/3d-systems",
               "prodotti/schede-sicurezza/3d-systems-resine",
               "prodotti/schede-sicurezza/markforged",
-              "prodotti/schede-sicurezza/formlabs"
+              "prodotti/schede-sicurezza/formlabs",
+              "prodotti/certificazioni"
             ]
           },
           {
@@ -1426,26 +1427,5 @@
       }
     ]
   },
-  "redirects": [
-    {
-      "source": "/prodotti/schede-sicurezza/3d-systems",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/3d-systems-resine",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/markforged",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    },
-    {
-      "source": "/prodotti/schede-sicurezza/formlabs",
-      "destination": "/prodotti/schede-sicurezza",
-      "permanent": false
-    }
-  ]
+  "redirects": []
 }
